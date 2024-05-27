@@ -1,0 +1,38 @@
+
+.slideshow-container {
+    max-width: 600px; /* Ajusta el ancho según tus necesidades */
+    position: relative;
+    margin: auto;
+    border-radius: 7%;
+}
+
+
+.slideshow-container img {
+    width: 80%;
+    height: auto;
+}
+
+/* Estilos para los botones */
+.slideshow-container button {
+    position:static;
+    top: 50%;
+    transform: translateY(-60%);
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.slideshow-container button:hover {
+    background-color: #555;
+}
+
+/* Estilos para los botones "Anterior" y "Siguiente" */
+#boton-anterior {
+    left: 0;
+}
+
+#boton-siguiente {
+    right: 0;
+}
